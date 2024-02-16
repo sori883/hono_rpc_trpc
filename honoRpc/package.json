@@ -1,0 +1,16 @@
+{
+  "name": "c3-turbo-testing",
+  "private": "true",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev --live-reload client.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "@planetscale/database": "^1.16.0",
+    "drizzle-orm": "^0.29.3",
+    "hono": "^4.0.2",
+    "wrangler": "^3.28.2"
+  }
+}
