@@ -1,4 +1,4 @@
-# study_hono
+# hono_rpc_trpc
 
 # 注意
 schema.tsが複数パッケージで定義されていますが、中身は全て同じです！
