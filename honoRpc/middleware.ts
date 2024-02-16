@@ -19,10 +19,6 @@ export const dbCon: MiddlewareHandler<{
     // 以下のエラーに対応したもの
     // The 'cache' field on 'RequestInitializerDict' is not implemented.
     // see: https://github.com/planetscale/database-js/pull/102#issuecomment-1508219636
-    fetch: (url, init) => {
-      delete (init!).cache;
-      return fetch(url, init);
-    }
   }));
   await next();
 };
