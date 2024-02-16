@@ -11,3 +11,6 @@ planetscaleに対してテーブルの作成とデモデータの投入を行い
 
 ## honoRPC
 HonoのRPCを確認するパッケージ
+
+## honoTrpc
+HonoのtRPCを確認するパッケージ
