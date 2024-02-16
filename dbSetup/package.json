@@ -1,0 +1,21 @@
+{
+  "name": "dbsetup",
+  "private": "true",
+  "version": "1.0.0",
+  "scripts": {
+    "push": "drizzle-kit push:mysql",
+    "seed": "pnpm with-env tsx seed.ts",
+    "with-env": "dotenv -e ./.env --"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@planetscale/database": "^1.16.0",
+    "@types/node": "^20.11.18",
+    "dotenv": "^16.4.4",
+    "dotenv-cli": "^7.3.0",
+    "drizzle-kit": "^0.20.14",
+    "drizzle-orm": "^0.29.3",
+    "mysql2": "^3.9.1",
+    "tsx": "^4.7.1"
+  }
+}
